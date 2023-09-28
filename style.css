@@ -1,0 +1,23 @@
+#message {
+    color: #ff0000;
+}
+
+.btn-secondary > a:link{
+	color: white;
+}
+
+.btn-secondary > a:visited{
+	color: white;
+}
+
+.btn-secondary > a:hover{
+	color: white;
+}
+
+.btn-secondary > a:active{
+	color: white;
+}
+
+h1 {
+	text-align: center;
+}

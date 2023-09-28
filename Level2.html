@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+    <title>Simple CTF Challenge</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">N-high-shool CTF</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+			<button type="button" class="btn btn-secondary">
+				<a href="./index.html">Level1</style></a>
+			</button>
+			<button type="button" class="btn btn-secondary">
+				<a href="./Level2.html">Level2</a>
+			</button>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<h1>Level2</h1>
+<div class="container-fluid cxt-padded bg-faded">
+  <div class="container">
+    <div class="row">
+     <div class="col-md-2 text-md-center text-center">
+        <img class="rounded-circle" src="./img/sample02.png" width="150" alt="Generic placeholder image">
+      </div>
+        <p class="lead">
+			<p class="text-start fs-3">Category : Crypto<p>
+			<p class="text-start fs-4">N高CTFも2問目!これで最後です!</p>
+			<p class="text-start fs-4">次は、暗号の問題を解いてもらいます。</p>
+			<p class="text-start fs-4">フラグはN-CTF{文字列}の形式です。</p>
+			<p class="text-start fs-4">今日のラッキーナンバーは13です。頑張ってください</p>
+
+			<a href="https://e-words.jp/w/%E3%82%B7%E3%83%BC%E3%82%B6%E3%83%BC%E6%9A%97%E5%8F%B7.html">Hint1</a>
+			<a href="https://dencode.com/ja/cipher">Hint2</a>
+			</p>
+
+			</p>
+			<p class="text-start fs-2">問題<p>
+			<div class="input-group mb-3">
+			<input type="text" id="myInput" class="form-control" value="A-PGS{Prnfre_Pelcgb_vf_sha}" aria-label="Recipient's username" aria-describedby="button-addon2">
+			<button type="button" class="btn btn-secondary" id="button-addon2" onclick="CopyCripBoard()">copy key</button>
+			</div>
+
+		<p class="text-start fs-2">提出<p>
+		<div class="input-group mb-3">
+		<input type="text" id="userInput" class="form-control" placeholder="N-CTF{xxxxx}" aria-label="Recipient's username" aria-describedby="button-addon2">
+		<button type="button" class="btn btn-success" id="button-addon2" onclick="checkKeyword2()">提出</button>
+		</div>
+		<div id="message"></div>
+    	<script src="script.js"></script>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
